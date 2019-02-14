@@ -46,13 +46,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/enter_address_hint"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="82dp" />
+        app:layout_constraintTop_toBottomOf="@+id/name_text" />
 
     <TextView
         android:id="@+id/phone_label"
